@@ -25,7 +25,7 @@ class Rocket
     @flying
   end
 
-  def lift_off
+  def lift_off #telling object to lift off
     if flying?
       return false
     else
@@ -34,7 +34,7 @@ class Rocket
     end
   end
 
-  def land
+  def land # telling object to land
     if flying?
       @flying = false
       return true
